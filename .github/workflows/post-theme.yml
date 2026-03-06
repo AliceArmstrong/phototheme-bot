@@ -1,0 +1,23 @@
+name: Post monthly photography theme
+
+on:
+  schedule:
+    # At 00:00 on day-of-month 1 (UTC)
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Run monthly theme poster (Node)
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          THEME_SALT: ${{ secrets.THEME_SALT }}
+        run: |
+          node postTheme.js

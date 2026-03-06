@@ -1,0 +1,41 @@
+# Sample photography themes (one per line). Edit or replace with your own.
+Different Perspectives
+Journeys
+Human
+Blue Hour
+Landscape
+Calm Moments
+Close-ups
+Symmetry
+Storytelling
+Black & White
+Reflections
+Skies above
+Portraits
+Minimalism
+Architecture
+Colours
+Silhouettes
+Water
+Motion
+Patterns
+Candid Moments
+Wildlife
+Food
+Joy
+Abstract
+Travel
+Golden Hour
+Macro
+Street Photography
+Negative Space
+Lights
+Pairs
+Soft
+Contrast
+Friendship
+Environment
+Juxtaposition
+Texture
+Shadows
+Home

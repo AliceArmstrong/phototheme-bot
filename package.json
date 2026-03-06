@@ -1,0 +1,18 @@
+{
+  "name": "phototheme-bot",
+  "version": "0.1.0",
+  "description": "Monthly photography theme bot for Slack (Incoming Webhook)",
+  "main": "postTheme.js",
+  "scripts": {
+    "start": "node postTheme.js",
+    "dry": "node postTheme.js --dry-run",
+    "validate": "node validateThemes.js",
+    "test": "jest --passWithNoTests"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
