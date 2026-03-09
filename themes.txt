@@ -1,4 +1,4 @@
-# Sample photography themes (one per line). Edit or replace with your own.
+Motion
 Different Perspectives
 Journeys
 Human
@@ -17,7 +17,6 @@ Architecture
 Colours
 Silhouettes
 Water
-Motion
 Patterns
 Candid Moments
 Wildlife
