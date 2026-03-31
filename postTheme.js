@@ -81,7 +81,7 @@ async function main() {
   const now = new Date()
   const { theme, idx } = pickTheme(themes, salt, now)
   const title = now.toLocaleString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' })
-  const message = `Photography theme for ${title}: *${theme}*` // TODO: Update this wording
+  const message = `The monthly photography theme for ${title} is *${theme}*! You have one month to capture some amazing photos and post them in this channel.` // TODO: Update this wording
 
   if (dry) {
     console.log(message)
