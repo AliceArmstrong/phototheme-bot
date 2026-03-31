@@ -2,8 +2,8 @@ name: Post monthly photography theme
 
 on:
   schedule:
-    # At 00:00 on day-of-month 1 (UTC)
-    - cron: '0 0 1 * *'
+    # At 11:00 on day-of-month 1 (UTC)
+    - cron: '0 11 1 * *'
   workflow_dispatch:
 
 jobs:
